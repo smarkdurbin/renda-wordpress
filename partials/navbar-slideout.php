@@ -27,6 +27,19 @@
                     
                     <?php get_template_part('searchform-navbar'); ?>
                     
+                    <?php 
+    	                    wp_nav_menu( array( 
+    	                            'menu'=> 'navbar',
+    	                            'theme_location' => 'navbar-left',
+    	                            'depth' => 2,
+    	                            'container' => false,
+    	                            'menu_class' => 'nav navbar-nav hidden-xs',
+    	                            'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+    	                            'walker' => new wp_bootstrap_navwalker()
+    	                        )
+    	                    );
+    	             ?>
+                    
                 <?php 
 	                    wp_nav_menu( array( 
 	                            'menu'=> 'navbar',
