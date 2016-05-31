@@ -47,10 +47,13 @@
                                 			</div>
                                 		</article>
     
-                                	</div>
-                                </div>
+                                	
                                 <?php
                                 	}
+                                ?>
+                                    </div>
+                                </div>
+                                <?php	
                                 }
                                 ?>
 
