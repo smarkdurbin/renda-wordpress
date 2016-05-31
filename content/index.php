@@ -30,7 +30,7 @@
 									<p>
 									    <?php the_excerpt(); ?>
 									</p>
-									<div class="read-more"><a href="<?php the_permalink(); ?>">Continue Reading</a></div>
+									<div class="read-more text-center"><a href="<?php the_permalink(); ?>">Continue Reading</a></div>
 								</div>
 							</div>
 						</div>
