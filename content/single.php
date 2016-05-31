@@ -24,7 +24,9 @@
 									<p>
 									    <?php the_content(); ?>
 									</p>
+									
 									<p class="text-muted"> 
+										<br>
 										<?php the_tags("Tags:",", ",""); ?>
 									</p>
 									<p class="text-muted">
