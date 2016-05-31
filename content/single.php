@@ -24,11 +24,12 @@
 									<p>
 									    <?php the_content(); ?>
 									</p>
-									<p>
-										<br>
-										<?php the_tags( ); ?>
+									<p class="text-muted">Tags: 
+										<?php the_tags("",", ",""); ?>
 									</p>
-									<?php echo get_the_category_list(); ?>
+									<p class="text-muted">
+										<?php get_the_category_list( ", "); ?>
+									</p>
 		                    	</div>
 		                    </div>
 						</div>
