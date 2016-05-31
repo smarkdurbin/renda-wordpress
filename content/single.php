@@ -28,6 +28,7 @@
 										<br>
 										<?php the_tags( ); ?>
 									</p>
+									<?php echo get_the_category_list(); ?>
 		                    	</div>
 		                    </div>
 						</div>
