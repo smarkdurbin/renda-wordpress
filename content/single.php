@@ -28,7 +28,7 @@
 										<?php the_tags("Tags:",", ",""); ?>
 									</p>
 									<p class="text-muted">
-										<?php get_the_category_list( ", ", "", ""); ?>
+										<?php the_category( ", " ); ?>
 									</p>
 		                    	</div>
 		                    </div>
