@@ -214,6 +214,7 @@ header {
 .blog-post .blog-post-body {
 	text-align: center;
 	padding: 20px 0;
+	color: #000;
 }
 .blog-post .blog-post-body h2 {
 	margin: 0;
@@ -221,12 +222,11 @@ header {
 	font-size: 41px;
 	line-height: 49px;
 }
-.blog-post .blog-post-body p {
+.blog-post .blog-post-body {
 	text-align: justify;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 30px;
-	color: #000;
 }
 .blog-post .blog-post-body ul {
 	text-align: left;
