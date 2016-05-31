@@ -16,16 +16,15 @@
                                 if ( $query->have_posts() ) {
                                 ?>
                                 
+                                <div class="sidebar-widget">
+                                	<h3 class="sidebar-title">Featured Posts</h3>
+                                	<div class="widget-container">
 
                                 <?php  
                                 	while ( $query->have_posts() ) {
                                 		$query->the_post();
                                 ?>
-                                
-                                <div class="sidebar-widget">
-                                	<h3 class="sidebar-title">Featured Posts</h3>
-                                	<div class="widget-container">
-                                    
+
                                         <article class="widget-post">
                                 			<div class="post-image">
                                 				<a href="<?php the_permalink(); ?>">
