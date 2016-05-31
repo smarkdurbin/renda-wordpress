@@ -1,14 +1,7 @@
     <?php if ( is_home() ) { ?>
     
     
-    	<div class="row">
-			<div class="col-md-12 full-width-xs slider-col">
-				
-				<span class="banner-container">
-					<span class="banner">
-						Featured
-					</span>
-				</span>
+    	
 			
 			<?php
 						
@@ -25,6 +18,17 @@
 			// The Loop
 			if ( $main_slider_query->have_posts() ) {
 			?>	
+			
+	<div class="row">
+		<div class="col-md-12 full-width-xs slider-col">
+			
+			<span class="banner-container">
+				<span class="banner">
+					Featured
+				</span>
+			</span>
+			
+			
 			<section class="main-slider">
 				<ul class="bxslider">
 			<?php	
@@ -49,6 +53,10 @@
 			?>
 				</ul>
 			</section>
+			
+		</div>
+	</div>
+			
 			<?php	
 			} else {
 				// no posts found
@@ -59,7 +67,5 @@
 			
 			?>
 
-			</div>
-		</div>
 	
 	<?php } ?>

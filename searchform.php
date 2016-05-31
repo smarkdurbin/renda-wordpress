@@ -4,7 +4,7 @@
         <input type="text" class="form-control search-form" placeholder="Search site for..." value="<?php the_search_query(); ?>" name="s" id="s">
         <span class="input-group-btn">
             <!--<button class="btn btn-default" type="button">Go!</button>-->
-            <button type="submit" class="btn btn-default search-btn" id="searchsubmit">
+            <button type="submit" class="btn btn-success search-btn" id="searchsubmit">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
         </span>
