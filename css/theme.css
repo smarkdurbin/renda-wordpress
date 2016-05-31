@@ -228,6 +228,13 @@ header {
 	line-height: 30px;
 	color: #000;
 }
+.blog-post .blog-post-body ul {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #000;
+}
 .blog-post .blog-post-body figure {
 	position: relative;
     left: 50%;
