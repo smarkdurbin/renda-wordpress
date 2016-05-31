@@ -220,6 +220,7 @@ header {
 	padding: 15px 0px 20px;
 	font-size: 41px;
 	line-height: 49px;
+	text-align: center;
 }
 .blog-post .blog-post-body p {
 	text-align: justify;
@@ -247,6 +248,7 @@ header {
 	font-family: Lora;
 	color: #AAA;
 	font-style: italic;
+	text-align: center;
 }
 .blog-post,
 .blog-post .blog-post-body,
@@ -273,6 +275,7 @@ header {
 	color: #B1B1B1;
 	font-family: "Lora";
 	font-style: italic;
+	text-align: center;
 }
 .blog-post .post-meta a {
 	color: #B1B1B1;
