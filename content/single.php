@@ -21,10 +21,9 @@
 									    /<span><i class="fa fa-clock-o"></i><?php the_time('F j, Y'); ?></span>
 									    /<span><i class="fa fa-comment-o"></i> <a href="#"><?php echo get_comments_number(); ?></a></span>
 									</div>
-									<p>
+									<div class="blog-post-content">
 									    <?php the_content(); ?>
-									</p>
-									
+									</div>
 									<p class="text-muted"> 
 										<br>
 										<?php the_tags("Tags: ",", ",""); ?>
