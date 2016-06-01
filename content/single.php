@@ -17,7 +17,7 @@
 									    <?php the_title(); ?>
 									</a></h2>
 									<div class="post-meta">
-									    <span>by <a href="#"><?php echo get_the_author_link(); ?></a></span>
+									    <span>by <?php echo get_the_author_link(); ?></span>
 									    /<span><i class="fa fa-clock-o"></i><?php the_time('F j, Y'); ?></span>
 									    /<span><i class="fa fa-comment-o"></i> <a href="#"><?php echo get_comments_number(); ?></a></span>
 									</div>
