@@ -36,7 +36,7 @@ show_admin_bar( false );
 	    
 	    <div class="container">
 		<header>
-			<a href="/">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 			    <h1 class="header-title">
 			        <?php
 	                    bloginfo('name');
