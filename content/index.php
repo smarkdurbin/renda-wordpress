@@ -27,9 +27,9 @@
 									    /<span><i class="fa fa-clock-o"></i><?php the_time('F j, Y'); ?></span>
 									    /<span><i class="fa fa-comment-o"></i> <a href="#"><?php echo get_comments_number(); ?></a></span>
 									</div>
-									<p>
+									<div class="blog-post-excerpt">
 									    <?php the_excerpt(); ?>
-									</p>
+									</div>
 									<div class="read-more text-center"><a href="<?php the_permalink(); ?>">Continue Reading</a></div>
 								</div>
 							</div>
