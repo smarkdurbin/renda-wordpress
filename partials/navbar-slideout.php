@@ -17,8 +17,10 @@
         
             <div id="navbar-slideout" class="nav-slideout">
                     <div class="nav-slideout-header hidden visible-xs">
-                        <a>
-                            Menu
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                            <?php
+                                bloginfo('name');
+                            ?>
                         </a>
                         <a href="#" class="navbar-close pull-right">
                             <span class="glyphicon glyphicon-remove"></span>
