@@ -16,9 +16,9 @@
 									    	<?php the_title(); ?>
 										</a>
 									</h2>
-									<p>
+									<div class="blog-post-content">
 									    <?php the_content(); ?>
-									</p>
+									</div>
 		                    	</div>
 		                    </div>
 						</div>
